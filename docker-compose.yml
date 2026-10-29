@@ -1,0 +1,33 @@
+services:
+  dev:
+    build: .
+    container_name: portifolio-dev
+    user: "1000:1000"
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "5173:5173"
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+    command: sh -c "[ -d node_modules/react ] || npm install; npm run dev"
+
+  build:
+    build: .
+    user: "1000:1000"
+    working_dir: /app
+    volumes:
+      - .:/app
+    profiles:
+      - tools
+    command: sh -c "[ -d node_modules/react ] || npm install; npm run build"
+
+  import-lattes:
+    build: .
+    user: "1000:1000"
+    working_dir: /app
+    volumes:
+      - .:/app
+    profiles:
+      - tools
+    command: sh -c "[ -d node_modules/fast-xml-parser ] || npm install; npm run import-lattes"

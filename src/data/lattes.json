@@ -1,0 +1,53 @@
+{
+  "lattesId": "5875369343046849",
+  "lattesUrl": "http://lattes.cnpq.br/5875369343046849",
+  "lastUpdated": "09072026",
+  "fullName": "Israel Santana dos Anjos",
+  "citationName": "ANJOS, I. S.",
+  "summaryPt": "",
+  "summaryEn": "",
+  "education": [
+    {
+      "id": "edu-graduacao-2021",
+      "levelPt": "Graduação",
+      "levelEn": "B.Sc. Undergraduate",
+      "coursePt": "Graduação em Ciência da Computação",
+      "courseEn": "B.Sc. Undergraduate in Ciência da Computação",
+      "institution": "Universidade Estadual de Santa Cruz",
+      "periodPt": "2021 — Atual",
+      "periodEn": "2021 — Present",
+      "status": "EM_ANDAMENTO",
+      "thesisTitle": ""
+    }
+  ],
+  "researchProjects": [
+    {
+      "id": "proj-1",
+      "titlePt": "SAPPI - Sistema de Acompanhamento de Processos de Propriedade Intelectual",
+      "titleEn": "SAPPI  Intellectual Property Monitoring System",
+      "institution": "Universidade Estadual de Santa Cruz",
+      "nature": "DESENVOLVIMENTO",
+      "periodPt": "2025 — Atual",
+      "periodEn": "2025 — Present",
+      "situation": "EM_ANDAMENTO",
+      "descriptionPt": "O sistema visa auxiliar os criadores no registro e monitoramento dos processos de propriedade intelectual na Universidade Estadual de Santa Cruz (UESC), tanto interna quanto externamente. Ele também apoia a equipe do Núcleo de Inovação Tecnológica (NIT) na gestão e orientação dos criadores por meio da plataforma.",
+      "descriptionEn": "The system aims to assist creators in registering and monitoring intellectual property processes at the State University of Santa Cruz (UESC), both internally and externally. It also supports the team of the Technological Innovation Center (NIT) in managing and guiding creators through the platform."
+    }
+  ],
+  "publications": [],
+  "softwares": [],
+  "languages": [
+    {
+      "language": "Português",
+      "reading": "BEM",
+      "speaking": "BEM",
+      "writing": "BEM"
+    },
+    {
+      "language": "Inglês",
+      "reading": "RAZOAVELMENTE",
+      "speaking": "RAZOAVELMENTE",
+      "writing": "RAZOAVELMENTE"
+    }
+  ]
+}

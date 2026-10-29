@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Israel Santana — Portfólio · Ciência da Computação & Pesquisa</title>
+    <meta
+      name="description"
+      content="Portfólio de Israel Santana — Ciência da Computação (UESC). Projetos em desenvolvimento, WebGIS, Sistemas, Pesquisa Acadêmica (Lattes) e Parcerias Institucionais."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('portfolio-theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var isDark = stored === 'dark' || ((!stored || stored === 'system') && systemDark);
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-apple-bgLight text-apple-textLight dark:bg-apple-bgDark dark:text-apple-textDark antialiased selection:bg-apple-blue/20 selection:text-apple-blue dark:selection:bg-apple-blueDark/25 dark:selection:text-apple-blueDark">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
